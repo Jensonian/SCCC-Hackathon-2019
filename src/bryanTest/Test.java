@@ -6,7 +6,7 @@ public class Test {
 		// TODO Auto-generated method stub
 		System.out.println("hello world");
 		System.out.print("using command line push Second time ");
-		
+		System.out.println("last Push Test");
 	}
 
 }
