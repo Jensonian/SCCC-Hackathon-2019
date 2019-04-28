@@ -1,0 +1,5 @@
+For other users:
+
+You'll need an authentication token from Smash.gg.
+
+Once you have it, you'll need to paste the code into a file called api.txt in this directory. 
