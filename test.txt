@@ -1,0 +1,44 @@
+query TournamentsByCountry($cCode: String!, $perPage: Int!,$setId: ID!) {
+  
+  
+  tournaments(query: {
+
+    perPage: $perPage
+    filter: {
+      countryCode: $cCode
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+  }) 
+  
+  {
+    nodes {
+      contactInfo
+      state
+      id
+      name
+      countryCode
+      
+    }
+    
+  }
+  
+  set(id:$setId){
+    id
+    slots{
+      standing{
+        placement
+        stats{
+          score {
+            label
+            value
+          }
+        }
+      }
+    }
+  }
+}
+  
+  
+
+
+
+  
