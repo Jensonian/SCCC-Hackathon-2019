@@ -36,6 +36,17 @@ query TournamentsByCountry($cCode: String!, $perPage: Int!,$setId: ID!) {
     }
   }
 }
+
+
+/////////// Query Variables
+{
+   "cCode": "JP",
+  "perPage": 2,
+  "setId": "7794998"
+
+  
+} 
+
   
   
 
